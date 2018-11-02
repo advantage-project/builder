@@ -29,8 +29,8 @@ namespace Checkpoints
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
     (     0, uint256("0x00004cd62c655e1492e4d87736f23fdd6ad260980007b72bc33373aed2b79258") )
-      (   2, uint256("0x00005bba6b120af805afbedce0ce3afbd1f9198ee4c26cfd6f969cc889427e59") )
-        ( 7, uint256("0x00000839f3d3f553090d4f8d8facb15504b7ff69dde2e1c9d8c8ce737bd9e38e") )
+//      (   2, uint256("0x00005bba6b120af805afbedce0ce3afbd1f9198ee4c26cfd6f969cc889427e59") )
+//        ( 7, uint256("0x00000839f3d3f553090d4f8d8facb15504b7ff69dde2e1c9d8c8ce737bd9e38e") )
 ;
     // TestNet has no checkpoints
     static MapCheckpoints mapCheckpointsTestnet;
