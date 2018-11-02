@@ -109,7 +109,7 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
-	vSeeds.push_back(CDNSSeedData("1", "149.28.229.20")); //update permanent seednode
+	vSeeds.push_back(CDNSSeedData("1", "172.31.31.42")); //update permanent seednode
         nPoolMaxTransactions = 3;
 
         strDarksendPoolDummyAddress = "AHhWC9PRgMzm6z5Xx3zjCSTG5zJ5u71UbL"; //irrelevant
